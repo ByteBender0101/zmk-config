@@ -47,10 +47,10 @@
             //                     | GUI |     | ALT/ENT |   | HYPER/SPACE | BKSP |    |
 
             bindings = <
-&trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp BSLH
-&trans     &trans        &trans        &trans        &trans        &trans          &kp MINUS                   &kp EQUAL     &kp GRAVE     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE
-&kp LSHFT  &trans        &trans        &trans        &trans        &trans          &kp UNDER                   &kp PLUS      &kp TILDE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RSHFT
-                                       &kp LGUI      &trans        &tp LALT RET    &tp LC(LS(LA(LGUI))) SPACE  &kp BSPC      &trans
+&trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &kp BSLH
+&trans     &trans        &trans        &trans        &trans        &trans          &kp MINUS     &kp EQUAL     &kp GRAVE     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE
+&kp LSHFT  &trans        &trans        &trans        &trans        &trans          &kp UNDER     &kp PLUS      &kp TILDE     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RSHFT
+                                       &kp LGUI      &trans        &tp LALT RET    &trans        &kp BSPC      &trans
             >;
         };
 
